@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho</title>
+    <link rel="stylesheet" href="rodrigues.css">
+</head>
+<body>
+    <input type="submit" value="Clicar" id='bt1'>
+    <br><br>
+    <input type="submit" value="Entrar" id='bt2'>
+    <br><br>
+    <input type="submit" value="Sair" id='bt3'>
+    <br><br>
+    <script>
+        function clicar(){
+            var a = window.document.getElementById('bt1')
+            a.innerText='clicou'
+            a.style.background= "blue"
+        }
+            function entrar(){
+                var a = window.document.getElementById('bt2')
+            a.innerText='entrou'
+            a.style.background= "green"
+        }
+            function sair(){
+                var a = window.document.getElementById('bt3')
+                a.innerText='saiu'
+                a.style.background="pink"
+            }
+
+    </script>
+</body>
+</html>

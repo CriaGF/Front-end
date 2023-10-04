@@ -1,0 +1,39 @@
+@charset "UTF-8";
+body{
+    background: linear-gradient(#ef75ff,#fb23ff);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+#bt1{
+    color: rgb(0, 0, 0);
+    background-color: rgb(222, 173, 255);
+    padding: 11px;
+    width: 550px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+#bt2{
+    color: rgb(0, 0, 0);
+    background-color: rgb(238, 129, 238);
+    padding: 11px;
+    width: 550px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+#bt3{
+    color:rgb(0, 0, 0);
+    background-color: darkorchid;
+    padding: 11px;
+    width: 550px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+#bt1:hover{
+    background-color: fuchsia;
+}
+#bt2:hover{
+    background-color: #9facff;
+}
+#bt3:hover{
+    background-color: #b93afe;
+}
